@@ -17,6 +17,7 @@ describe("When clicked, game square displays correct character, either X or O", 
         reset={true}
       />
     );
+    
 
     // Verify nothing there
     expect(screen.queryByText("X")).toBeNull();
